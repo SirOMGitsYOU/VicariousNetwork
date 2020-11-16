@@ -1,0 +1,298 @@
+{
+    "images":
+{
+        "title":
+        {
+            "image" : "new_menu:aboe_new_logo_bh.png",
+            "posX" : -70,
+            "posY" : 2,
+            "width" : 132.14,
+            "height" : 113.03,
+            "alignment" : "top_center"
+        },
+		"sam":
+        {
+            "image" : "new_menu:Sam_Approval.png",
+            "posX" : -64,
+            "posY" : 0,
+            "width" : 64,
+            "height" : 62.75,
+            "alignment" : "top_right"
+        },
+		"quit":
+        {
+            "image" : "new_menu:Button_Quit.png",
+            "posX" : 50,
+            "posY" : 60,
+            "width" : 50,
+            "height" : 45,
+            "alignment" : "center"
+        },
+		"language":
+        {
+            "image" : "new_menu:Button_Language.png",
+            "posX" : -25,
+            "posY" : 60,
+            "width" : 50,
+            "height" : 45,
+            "alignment" : "center"
+        },
+		"discord":
+        {
+            "image" : "new_menu:Button_Discord.png",
+            "posX" : -100,
+            "posY" : 60,
+            "width" : 50,
+            "height" : 45,
+            "alignment" : "center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+			"texture" : "new_menu:Button_Left.png",
+            "posX" : -138,
+            "posY" : 55,
+            "width" : 90,
+            "height" : 30,
+# Christmas Colours
+#			"normalTextColor" : 15353392,
+			"hoverTextColor" : 13910772,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "server":
+        {
+            "text" : "Official Server",
+			"texture" : "new_menu:Button_Middle.png",
+            "posX" : -46,
+            "posY" : 55,
+            "width" : 90,
+            "height" : 30,
+# Christmas Colours
+#			"normalTextColor" : 1338170,
+			"hoverTextColor" : 13910772,
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "aboe.vicariousnetwork.com"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+			"texture" : "new_menu:Button_Right.png",
+            "posX" : 46,
+            "posY" : 55,
+            "width" : 90,
+            "height" : 30,
+# Christmas Colours
+#			"normalTextColor" : 3304116,
+			"hoverTextColor" : 13910772,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "Mods     ",
+			"texture" : "new_menu:Button_Mods.png",
+            "posX" : 46,
+            "posY" : 87,
+            "width" : 90,
+            "height" : 30,
+# Christmas Colours
+#			"normalTextColor" : 3304116,
+			"hoverTextColor" : 13910772,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+
+        "reauth":
+        {
+            "text" : "Re-Login",
+			"texture" : "new_menu:Button_Middle.png",
+            "posX" : -84,
+            "posY" : -32,
+            "width" : 80,
+            "height" : 20,
+            "alignment" : "bottom_right",
+# Christmas Colours
+#			"normalTextColor" : 3304116,
+			"hoverTextColor" : 13910772,
+            "wrappedButton" : 17325
+        },
+            
+        "options":
+        {
+            "text" : "Options  ",
+			"textOffsetX" : 5,
+			"texture" : "new_menu:Button_Options.png",
+            "posX" : -138,
+            "posY" : 87,
+            "width" : 90,
+            "height" : 30,
+# Christmas Colours
+#			"normalTextColor" : 15353392,
+			"hoverTextColor" : 13910772,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit-button":
+        {
+            "text" : "",
+			"texture" : "new_menu:refresh.png",
+            "posX" : 50,
+            "posY" : 60,
+            "width" : 50,
+            "height" : 45,
+			"alignment" : "center",
+# Christmas Colours
+#			"normalTextColor" : 3304116,
+			"hoverTextColor" : 13910772,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+		
+		"language-button":
+        {
+            "text" : "",
+			"texture" : "new_menu:refresh.png",
+            "posX" : -25,
+            "posY" : 60,
+            "width" : 50,
+            "height" : 45,
+			"alignment" : "center",
+			"hoverTextColor" : 13910772,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+		
+		"discord-button":
+        {
+            "text" : "",
+			"texture" : "new_menu:refresh.png",
+            "posX" : -100,
+            "posY" : 60,
+            "width" : 50,
+            "height" : 45,
+			"alignment" : "center",
+			"hoverTextColor" : 13910772,
+            "action" : 
+            {
+                "type": "openLink",
+                "link": "https://discord.gg/pGzKn9e"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "Rent a server",
+            "hoverText" : "at BisectHosting",
+			"texture" : "new_menu:Button_Middle.png",
+            "posX" : -46,
+            "posY" : 87,
+            "width" : 90,
+            "height" : 30,
+# Christmas Colours
+#			"normalTextColor" : 1338170,
+			"hoverTextColor" : 13910772,
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://bisecthosting.com/VicariousNetwork"
+            }
+        }
+        
+#        "refresh":
+#        {
+#            "text" : "",
+#            "texture" : "new_menu:refresh.png",
+#            "posX" : 2,
+#            "posY" : -32,
+#            "width" : 20,
+#            "height" : 20,
+#            "texture" : "custommainmenu:textures/gui/buttons.png",
+#			"alignment" : "bottom_left",
+#			"hoverTextColor" : 13910772,
+#            "action" : 
+#            {
+#                "type" : "refresh"
+#            }
+#        }
+    },
+    
+    "labels":
+    {
+        "modsloaded":
+        {
+            "text" : "Mods loaded: #modsloaded#",
+            "posX" : -86,
+            "posY" : -10,
+# Christmas Colours            
+#			"color" : 1338170,
+#            "hoverColor" : 1338170,
+            "alignment" : "bottom_right"
+        },
+		"everything":
+        {
+            "text" : "A Bit of Everything",
+            "posX" : 2,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_left",
+			"color" : 13910772,
+			"hoverColor" : 13910772
+# Christmas Colours
+#			"color" : 15353392, 
+#			"hoverColor" : 15353392
+        },
+        "georcraft":
+        {
+            "text" : "Menu rebuilt by GeoRCCraft",
+            "posX" : -139,
+            "posY" : -10,
+            "color" : 5875433,
+# Christmas Colours
+#            "hoverColor" : 5875433,
+#            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type": "openLink",
+                "link": "https://twitter.com/GeoRCCraft"
+            }
+        }
+    },
+    
+    "other":
+    {       
+        "background":
+		{
+			"image" : "new_menu:background.png",
+			"mode" : "stretch"
+		}
+    }
+}
