@@ -1,0 +1,25 @@
+{
+   "packdev":{
+      "capeUrl":"https://vicariousnetwork.com/capes/devcape.png",
+      "users":[
+         "1484aaa5-7900-44d1-a6df-17b62ca35ce0"
+      ]
+   },
+   "betatesters":{
+      "capeUrl":"https://vicariousnetwork.com/capes/testercape.png",
+      "users":[
+         "c464cc4f-bc63-48f1-84d4-bee8ee4c29dd",
+         "756d1a64-38a8-49d4-b1bf-4a5eba7e90cf",
+         "96bc7a1a-40fe-44cd-966a-4ec60249706e",
+         "bb3a9d0a-f946-49fc-aa02-46f3978078a3", 
+         "4a477683-30fd-4797-8d72-1cfa004d8e08",
+         "1425a5c5-f918-47be-97ef-f4c6aec4baf3",
+         "76d9b88b-2025-4e64-92d8-9f8cb6b9be11",
+         "632b6bb0-1e7f-4857-a70a-d903ef5725cd",
+         "d26b58ba-f318-47d7-82e7-47cc9fb4d1b8",
+         "863a2dbf-8ef2-4c26-9bf5-5193742da9dc",
+         "66d8cc47-0cc9-445d-862b-af889ee4cd5b",
+         "fc488c71-a1fb-4a29-b637-2c921c8e79dd"
+      ]
+   }
+}

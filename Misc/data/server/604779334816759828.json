@@ -1,0 +1,27 @@
+[
+  {
+    "uid": "dev.vicariousnetwork.com",
+    "key": "server-vn",
+    "name": "ABOE Official Server"
+  },
+  {
+    "uid": "play.vicariousnetwork.com",
+    "key": "server-vn",
+    "name": "ABOE Official Server"
+  },
+  {
+    "uid": "play.vicariousnetwork.com:25565",
+    "key": "server-vn",
+    "name": "ABOE Official Server"
+  },  
+  {
+    "uid": "127.0.0.1",
+    "key": "server-localhost",
+    "name": "Local Server"
+  },
+  {
+    "uid": "0.0.0.0",
+    "key": "server-localhost",
+    "name": "Local Server"
+  }
+]
