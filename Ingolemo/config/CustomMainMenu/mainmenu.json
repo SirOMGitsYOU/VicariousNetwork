@@ -1,0 +1,320 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "ingolemo:textures/images/logo.png",
+            "posX" : -90,
+            "posY" : -7,
+            "width" : 170,
+            "height" : 170,
+            "alignment" : "top_center"
+        },
+		"spsymbol":
+        {
+            "image" : "ingolemo:textures/buttons/singleplayerSymbol.png",
+            "posX" : -149,
+            "posY" : 37,
+            "width" : 17,
+            "height" : 20,
+            "alignment" : "center"
+        },
+		"bhsymbol":
+        {
+            "image" : "ingolemo:textures/buttons/server2.png",
+            "posX" : 42,
+            "posY" : 100,
+            "width" : 12,
+            "height" : 12,
+            "alignment" : "center"
+        },
+		"dissymbol":
+        {
+            "image" : "ingolemo:textures/buttons/discordSymbol.png",
+            "posX" : -147,
+            "posY" : 94,
+            "width" : 25.6,
+            "height" : 25.6,
+            "alignment" : "center"
+        },
+		"mpsymbol":
+        {
+            "image" : "ingolemo:textures/buttons/multiplayerSymbol.png",
+            "posX" : 42,
+            "posY" : 37,
+            "width" : 19.5,
+            "height" : 19.75,
+            "alignment" : "center"
+        },
+		"optionssymbol":
+        {
+            "image" : "ingolemo:textures/buttons/optionsSymbol.png",
+            "posX" : -149,
+            "posY" : 67.5,
+            "width" : 20,
+            "height" : 20,
+            "alignment" : "center"
+        },
+		"modssymbol":
+        {
+            "image" : "ingolemo:textures/buttons/modsSymbol.png",
+            "posX" : -52,
+            "posY" : 67.5,
+            "width" : 19.5,
+            "height" : 19.75,
+            "alignment" : "center"
+        },
+		"quitsymbol":
+        {
+            "image" : "ingolemo:textures/buttons/quitSymbol.png",
+            "posX" : -52,
+            "posY" : 97,
+            "width" : 20,
+            "height" : 19.75,
+            "alignment" : "center"
+        },
+		"langsymbol":
+        {
+            "image" : "ingolemo:textures/buttons/worldSymbol.png",
+            "posX" : 43,
+            "posY" :67.5,
+            "width" : 18,
+            "height" : 19,
+            "alignment" : "center"
+        },
+		"sam":
+        {
+            "image" : "ingolemo:textures/images/Sam_Approval.png",
+            "posX" : -64,
+            "posY" : 0,
+            "width" : 64,
+            "height" : 62.75,
+            "alignment" : "top_right"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "   Singleplayer",
+			"texture" : "ingolemo:textures/buttons/outline.png",
+            "posX" : -150,
+            "posY" : 35,
+            "width" : 90,
+            "height" : 23,
+			"imageHeight" : 30,
+			"alignment" : "center",
+			"hoverTextColor" : 2733022,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+		
+        "os":
+        {
+            "text" : "Official Server",
+			"texture" : "ingolemo:textures/buttons/outline.png",
+            "posX" : -55,
+            "posY" : 35,
+            "width" : 90,
+            "height" : 23,
+			"imageHeight" : 30,
+			"alignment" : "center",
+			"hoverTextColor" : 2733022,
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "ingo.vicariousnetwork.com"
+            }
+        },
+        
+        "mp":
+        {
+            "text" : "   Multiplayer",
+			"texture" : "ingolemo:textures/buttons/outline.png",
+            "posX" : 40,
+            "posY" : 35,
+            "width" : 90,
+            "height" : 23,
+			"imageHeight" : 30,
+			"alignment" : "center",
+			"hoverTextColor" : 2733022,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "options":
+        {
+            "text" : "menu.options",
+			"texture" : "ingolemo:textures/buttons/outline.png",
+            "posX" : -150,
+            "posY" : 65,
+            "width" : 90,
+            "height" : 23,
+			"imageHeight" : 30,
+			"alignment" : "center",
+			"hoverTextColor" : 2733022,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "Mods",
+			"texture" : "ingolemo:textures/buttons/outline.png",
+            "posX" : -55,
+            "posY" : 65,
+            "width" : 90,
+            "height" : 23,
+			"imageHeight" : 30,
+			"alignment" : "center",
+			"hoverTextColor" : 2733022,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+		
+        "language":
+        {
+            "text" : "  Language",
+			"texture" : "ingolemo:textures/buttons/outline.png",
+            "posX" : 40,
+            "posY" : 65,
+            "width" : 90,
+            "height" : 23,
+			"imageHeight" : 30,
+			"alignment" : "center",
+			"hoverTextColor" : 2733022,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+		
+        "discord":
+        {
+            "text" : "   Discord",
+			"texture" : "ingolemo:textures/buttons/outline.png",
+            "posX" : -150,
+            "posY" : 95,
+            "width" : 90,
+            "height" : 23,
+			"imageHeight" : 30,
+			"alignment" : "center",
+			"hoverTextColor" : 2733022,
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://discord.vicariousnetwork.com"
+            }
+        },
+            
+        "quitgame":
+        {
+            "text" : "  Quit Game",
+			"texture" : "ingolemo:textures/buttons/outline.png",
+            "posX" : -55,
+            "posY" : 95,
+            "width" : 90,
+            "height" : 23,
+			"imageHeight" : 30,
+			"alignment" : "center",
+			"hoverTextColor" : 2733022,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+		
+        "bh":
+        {
+            "text" : "    Rent a Server",
+			"texture" : "ingolemo:textures/buttons/outline.png",
+            "posX" : 40,
+            "posY" : 95,
+            "width" : 90,
+            "height" : 23,
+			"imageHeight" : 30,
+			"alignment" : "center",
+			"hoverTextColor" : 2733022,
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://bisecthosting.vicariousnetwork.com"
+            }
+        }
+        
+#        "refresh":
+#        {
+#            "text" : "",
+#            "texture" : "new_menu:refresh.png",
+#            "posX" : 2,
+#            "posY" : -32,
+#            "width" : 20,
+#            "height" : 20,
+#            "texture" : "custommainmenu:textures/gui/buttons.png",
+#			"alignment" : "bottom_left",
+#			"hoverTextColor" : 2733022,
+#            "action" : 
+#            {
+#                "type" : "refresh"
+#            }
+#        }
+    },
+    
+    "labels":
+    {
+        "modsloaded":
+        {
+            "text" : "Mods loaded: #modsloaded#",
+            "posX" : -86,
+            "posY" : -20,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+		"ingolemo":
+        {
+            "text" : "Ingolemo",
+            "posX" : 2,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_left",
+			"color" : 2733022,
+			"hoverColor" : 2733022
+        },
+        "georcraft":
+        {
+            "text" : "Created by Peter (@SirOMGitsYOU)",
+            "posX" : -171,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type": "openLink",
+                "link": "https://twitter.com/SirOMGitsYOU"
+            }
+        }
+    },
+    
+    "other":
+    {       
+        "background":
+		{
+			"image" : "ingolemo:textures/images/backgroundnew.png",
+			"mode" : "stretch"
+		}
+    }
+}

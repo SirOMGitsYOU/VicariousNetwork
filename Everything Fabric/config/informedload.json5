@@ -1,0 +1,35 @@
+{ 
+	"logDebugs": false,
+	// Display entrypoint loading
+	"entrypointDisplay": true,
+	// If informed load has conflicts, run this to figure out what entrypoints go to what mods, so you can disable them
+	"printEntrypoints": false,
+	// Model add progress bars
+	"splash_splitProgressBars": "SPLIT",
+	// Use 1 to keep the status on the main bar.
+	"splash_maxProgressBarRows": 3,
+	// Keep same progress bars even if splash tewakers are installed.
+	"splash_forceVanillaProgressBars": false,
+	"worldload_loveDisplay": { 
+		// Its really cool trust me
+		"worldmap": true,
+		// The smaller this number, the beefier your computer needs to be; 1-4 or something bad will happen
+		"worldmap_quality": 2,
+		// Bigger is better!
+		"bigChunkViewer": true,
+		// Do you like progress bars!!!
+		"showProgressBar": true
+	},
+	"worldload_hateDisplay": { 
+		// Don't like the new world load thingy?
+		"progressBarDisplay": false
+	},
+	"theme": { 
+		"background": "239,50,61",
+		"progressbarOutside": "255,255,255",
+		"progressbarInside": "255,255,255",
+		"progressbarBackground": "239,50,61",
+		"progressTextColor": "0,0,0",
+		"textColor": "255,255,255"
+	}
+}

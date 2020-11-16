@@ -1,0 +1,8 @@
+{ 
+	"namePopupDuration": 3.5,
+	"namePopupFadeIn": 0.5,
+	"namePopupFadeOut": 1.0,
+	"namePopupScale": 1.0,
+	"namePopupOffset": 5.0,
+	"namePopupRenderLocation": "LEFT"
+}

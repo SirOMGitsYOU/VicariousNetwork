@@ -1,0 +1,10 @@
+{
+	// A multiplier for the strength of the nausea effect
+	"nauseaModifier": 0.2,
+	// A multiplier for the strength of the portal distortion effect
+	"portalModifier": 0.2,
+	/* NORMAL - Players stumble when moving
+	   ADVANCED - Players stumble even when standing still
+	*/
+	"stumbling": "DISABLED"
+}

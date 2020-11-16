@@ -1,0 +1,9 @@
+{
+  "spreadProbability": 0.05,
+  "mutationProbability": 0.05,
+  "breedProbability": 0.05,
+  "maxGrowthProbability": 0.9,
+  "autoModifyLootTables": true,
+  "lootTableBinomProbability": 0.5,
+  "spreadRadius": 1
+}
