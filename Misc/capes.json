@@ -1,12 +1,12 @@
 {
    "packdev":{
-      "capeUrl":"https://vicariousnetwork.com/capes/devcape.png",
+      "capeUrl":"https://vicariousnetwork.com/files/capes/devcape.png",
       "users":[
          "1484aaa5-7900-44d1-a6df-17b62ca35ce0"
       ]
    },
    "betatesters":{
-      "capeUrl":"https://vicariousnetwork.com/capes/testercape.png",
+      "capeUrl":"https://vicariousnetwork.com/files/capes/testercape.png",
       "users":[
          "c464cc4f-bc63-48f1-84d4-bee8ee4c29dd",
          "756d1a64-38a8-49d4-b1bf-4a5eba7e90cf",
