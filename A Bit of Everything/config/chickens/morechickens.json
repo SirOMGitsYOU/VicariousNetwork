@@ -857,5 +857,15 @@
     "Spawn Type": "NONE",
     "Parent 1": "chickens:ironchicken",
     "Parent 2": "chickens:ironchicken"
+  },
+  "morechickens:garnetchicken": {
+    "Name": "garnetchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "silentgems:gem:1",
+    "Drop Item": "silentgems:gem:1",
+    "Spawn Type": "NONE",
+    "Parent 1": "morechickens:sapphirechicken",
+    "Parent 2": "morechickens:rubychicken"
   }
 }

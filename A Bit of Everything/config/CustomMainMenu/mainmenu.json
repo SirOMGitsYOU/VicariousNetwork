@@ -254,7 +254,7 @@
             "posY" : -10,
 # Christmas Colours            
 #			"color" : 1338170,
-#            "hoverColor" : 1338170,
+            "hoverColor" : 1338170,
             "alignment" : "bottom_right"
         },
 		"everything":
@@ -264,11 +264,11 @@
             "posY" : -10,
             "color" : -1,
             "alignment" : "bottom_left",
-			"color" : 13910772,
-			"hoverColor" : 13910772
+#			"color" : 13910772,
+#			"hoverColor" : 13910772
 # Christmas Colours
-#			"color" : 15353392, 
-#			"hoverColor" : 15353392
+			"color" : 15353392, 
+			"hoverColor" : 15353392
         },
         "georcraft":
         {
